@@ -18,8 +18,8 @@ import io.appium.java_client.touch.offset.PointOption;
 ​
 ​
 class TouchActionExample{
-	String username = "YOUR_USERNAME"; 	//encode the @ symbol with %40																							//username can be found on the Manage Account page, ensure @ is encoded with %40
-   	String authkey = "YOUR_AUTHEKEY";  //authkey can be found on the Manage Account page
+	String username = "YOUR_USERNAME"; //username can be found on the Manage Account page, ensure @ is encoded with %40
+   	String authkey = "YOUR_AUTHKEY";  //authkey can be found on the Manage Account page
     String score;
     
     AppiumDriver<IOSElement> driver;
